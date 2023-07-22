@@ -1,8 +1,5 @@
 /* TEAM */
-	Chef: Oscar Barajas Tavares
-	Contact: oscar [at] gndx.dev
-	Twitter: @gndx
-	From:Sopo, Cundinamarca, Colombia.
+	Chef: John Cedillo
 
 /* THANKS */
 	Template: astro-theme-cactus

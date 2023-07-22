@@ -6,11 +6,12 @@ import YouTube from "../components/YouTube";
 import Conferences from "../components/Conferences";
 import { sortMDByDate } from "@/util";
 import type { Post } from "@/types";
+import { logo } from "@/assets/jc.jpeg"
 
 const meta = {
-	title: "Oscar Barajas Tavares",
+	title: "John Cedillo",
 	description:
-		"Learning Engineer at @platzi - Microsoft MVP - Lead at Developer Circles from Meta, #JavaScript #React #Web3 #BTC #ETH - #Twitch Partner 🇲🇽 🇨🇴",
+		"Learning Engineer - Lead at Developer, #JavaScript #React #Web3 #BTC #ETH,
 };
 
 const MAX_POSTS = 15;
@@ -26,8 +27,8 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 			<figure>
 				<img
 					class="rounded-lg w-48"
-					src="https://arepa.s3.amazonaws.com/oscar-barajas--tavares-gndx.png"
-					alt="Oscar Barajas Tavares"
+					src={logo}
+					alt="John Cedillo"
 					width="48"
 					height="48"
 				/>
