@@ -1,6 +1,9 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro";
 
+import logoImg from "../assets/jc.ico"
+
+
 const url = new URL(Astro.request.url);
 ---
 
@@ -29,8 +32,8 @@ const url = new URL(Astro.request.url);
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
 			<img
-				src="https://s3.amazonaws.com/gndx.dev/gndx.png"
-				alt="Oscar Barajas Tavares @gndx logo"
+				src={logoImg}
+				alt="John Cedillo"
 				class="w-16 rounded mr-8"
 				width="64"
 				height="64"
